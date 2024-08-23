@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use(cors({
-   origin: ['job-portal-frontend-i6g6ugks9-ahsan-s-projects-96f5cfc9.vercel.app'],
+   origin: ['https://job-portal-frontend-inky.vercel.app/'],
    methods:["GET", "POST", "PUT", "DELETE"],
    credentials: true
 }));
