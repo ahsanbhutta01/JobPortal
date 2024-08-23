@@ -17,7 +17,8 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use(cors({
-   origin: 'http://localhost:5173',
+   origin: 'https://job-portal-80y7jricf-ahsan-s-projects-96f5cfc9.vercel.app/',
+   methods:["GET", "POST", "PUT", "DELETE"]
    credentials: true
 }));
 app.use(cookieParser());
