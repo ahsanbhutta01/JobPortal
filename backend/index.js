@@ -18,7 +18,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
    origin: ['https://job-portal-frontend-inky.vercel.app/'],
-   methods:["GET", "POST", "PUT", "DELETE"],
    credentials: true
 }));
 app.use(cookieParser());
